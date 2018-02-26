@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>|twitchTV viewer|</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+</head>
+<body>
+    <div class="container">
+    <nav class="nav-wrapper blue">
+        <p class="brand-logo center">
+            twitchTV viewer
+        </p>
+        </nav>
+        <div class="row">
+            <div class=" inout-field col s6">
+                <input placeholder="Channel name" id="searchtext" type="text">
+                <label class="active" for="searchtext">Enter name of channel</label>
+                </div>
+                <div class="col s6">
+        <ul id="nav-mobile" class="right ">
+            <li>
+                <a href="#">All</a>
+            </li>
+            <li>
+                <a href="#">Active</a>
+            </li>
+            <li>
+                <a href="#">Offline</a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    <div id="streamchannels">
+        
+    </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script src="js/jquery-1.11.3.min"></script>
+<script src="js/main.js"></script>
+</html>
